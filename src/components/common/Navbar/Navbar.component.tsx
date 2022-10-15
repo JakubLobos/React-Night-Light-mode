@@ -1,7 +1,7 @@
 import { StyledNavbar } from "./Navbar.style"
-import React from "react"
+import { FC }  from "react";
 
-export const Navbar = () => {
+export const Navbar: FC = () => {
     
     return (
         <StyledNavbar>
